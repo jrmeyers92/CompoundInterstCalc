@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Compound Interest Calculator</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<h1 class="heading__primary heading">Compound Interest Calculator</h1>
+		<h2 class="heading__secondary heading">
+			Don't be a fool, invest early and often!
+		</h2>
+		<form class="form" id="form">
+			<div class="infoInputs">Inputs</div>
+			<div class="inputDiv">
+				<label for="currentPrincipal" class="label">Current Principal:</label>
+				<input type="text" class="input" id="currentPrincipal" />
+			</div>
+
+			<div class="inputDiv">
+				<label for="annualAddition" class="label">Annual Addition:</label>
+				<input type="text" class="input" id="annualAddition" />
+			</div>
+			<div class="inputDiv">
+				<label for="yearsToGrow" class="label">Years to Grow:</label>
+				<input type="text" class="input" id="yearsToGrow" />
+			</div>
+			<div class="inputDiv">
+				<label for="interestRate" class="label">Interst Rate:</label>
+				<input type="text" class="input" id="interestRate" />
+			</div>
+			<button type="submit">Submit</button>
+			<div class="infoInputs">results</div>
+			<div class="inputDiv">
+				<label for="futureValue" class="label">Future Value:</label>
+				<input type="text" class="input" id="futureValue" />
+			</div>
+		</form>
+	</body>
+</html>
